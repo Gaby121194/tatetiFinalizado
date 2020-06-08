@@ -1,0 +1,26 @@
+.tateti {
+  border: black solid 1px;
+  width: 200px;
+  height: 200px;
+}
+
+.cuerpo {
+  display: flex;
+  margin-top: 10px ;
+  
+}
+
+.cuadro {
+  border: black solid 1px;
+}
+
+.celda {
+  background-color: gray;
+}
+
+.marca1 {
+  background-color: blue;
+}
+.marca2 {
+  background-color: brown;
+}
