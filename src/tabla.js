@@ -27,8 +27,7 @@ export default class Tabla extends React.Component {
         currentPlayer : "",
         turnos: 0,
         message: "",
-        history1: "",
-        history2: "",
+        
 
         
     }

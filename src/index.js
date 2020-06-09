@@ -5,7 +5,6 @@ import './App.css';
 import Jugador from './jugadores';
 import {TatetiRedux} from './juego';
 import { Provider } from 'react-redux';
-import Tabla from './tabla'
 import {TablaRedux} from './tabla'
 
 export default function App() {

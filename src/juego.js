@@ -53,18 +53,6 @@ export default class Tateti extends React.Component {
     }
 
     
-
-    // cambiarColor = (event) => {
-        
-    //     event.target.className = "cuadro celda"
-            
-    
-    // }
-
-    // sacarColor = (event) => {
-    //     event.target.className = "cuadro"
-    // }
-    
    
 
     

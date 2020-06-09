@@ -1,0 +1,42 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/gaby/Desktop/pa-backend/reactTateti-master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show HEAD:~/.vscode-root/Cookies-journal
+> git ls-tree -l HEAD -- /home/gaby/Desktop/pa-backend/reactTateti-master/~/.vscode-root/Cookies-journal
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show HEAD:~/.vscode-root/storage.json
+> git ls-tree -l HEAD -- /home/gaby/Desktop/pa-backend/reactTateti-master/~/.vscode-root/storage.json
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gaby/Desktop/pa-backend/reactTateti-master/~/.vscode-root/storage.json
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/apirestTateti.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/apirestTateti.js
+> git cat-file -s e28faa456e32098d1f858d8957f00830a789b9f2
+> git show :src/evironment.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/evironment.js
+> git cat-file -s 5cdf936e45e09e06a5b4ac6f90929b0a4c89e361
+> git show :src/index.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/index.js
+> git cat-file -s 37fd96bf90a00eca43fb2dfcf3c860e5d646795a

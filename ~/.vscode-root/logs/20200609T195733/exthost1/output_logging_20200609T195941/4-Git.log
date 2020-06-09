@@ -1,0 +1,113 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/gaby/Desktop/pa-backend/reactTateti-master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :src/index.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/index.js
+> git cat-file -s 37fd96bf90a00eca43fb2dfcf3c860e5d646795a
+> git show :src/apirestTateti.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/apirestTateti.js
+> git cat-file -s e28faa456e32098d1f858d8957f00830a789b9f2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/App.test.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/App.test.js
+> git cat-file -s 4db7ebc25c2d066cd254805af5dda1ed1d2bc819
+> git show :src/evironment.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/evironment.js
+> git cat-file -s 5cdf936e45e09e06a5b4ac6f90929b0a4c89e361
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/index.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/index.js
+> git cat-file -s 37fd96bf90a00eca43fb2dfcf3c860e5d646795a
+> git show :src/juego.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/juego.js
+> git cat-file -s 465d6f92f80a28e97a966b8e08452b0478a9dc37
+> git show :src/jugadores.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/jugadores.js
+> git cat-file -s c51d8879ef54ee264f57b1fddc8680c645b64814
+> git show :src/serviceWorker.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/serviceWorker.js
+> git cat-file -s b04b771a82613a80b0532d7082508763620074bf
+> git show :src/setupTests.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/setupTests.js
+> git cat-file -s 74b1a275a0ea7df518f17bcea5375abf003abe55
+> git show :src/store.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/store.js
+> git cat-file -s 48fb3656953ab5a6452cf90e2948fb97663f05c4
+> git show :src/tabla.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/tabla.js
+> git cat-file -s b302229c96dcc95cb3f1d36747b9d9c700133727
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/tateti.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/tateti.js
+> git cat-file -s 754090f854b38ed9b4279dc6df3e62d6e171c326
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/tabla.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/tabla.js
+> git cat-file -s b302229c96dcc95cb3f1d36747b9d9c700133727
+> git show :src/App.css
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/App.css
+> git cat-file -s 8def3a2ae2d621a892fa26d41710a3b1edc56c18
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/index.css
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/index.css
+> git cat-file -s ec2585e8c0bb8188184ed1e0703c4c8f2a8419b0
+> git show :src/index.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/index.js
+> git cat-file -s 37fd96bf90a00eca43fb2dfcf3c860e5d646795a
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/juego.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/juego.js
+> git cat-file -s 465d6f92f80a28e97a966b8e08452b0478a9dc37
