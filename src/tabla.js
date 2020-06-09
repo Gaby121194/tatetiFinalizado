@@ -38,9 +38,8 @@ export default class Tabla extends React.Component {
         return(
         <div className="cuerpo">
 
-            <div>   
-                <h3>Historial jugador1: {this.state.player1} </h3>
-                <p> {this.state.history1}</p>
+            <div >   
+            <h3>Jugador2: "{this.state.player2}" </h3>
             </div>
 
             
@@ -73,9 +72,8 @@ export default class Tabla extends React.Component {
                     </table>
                 </div>
             
-            <div>
-                <h3>Historial jugador2: {this.state.player2} </h3>
-                <p> {this.state.history2}</p>
+            <div >
+                <h3>Jugador2: "{this.state.player2}" </h3>
             </div>
             
                 
@@ -118,17 +116,17 @@ export default class Tabla extends React.Component {
         this.setState(newState)
 
         if(this.state.stateGame == "playing" && this.state.currentPlayer== true){
-            this.setState({ message: "Comienza el jugador" + this.state.player1})
+            this.setState({ message: "Juega el jugador: " + this.state.player1})
         }
         else if (this.state.stateGame == "playing" && this.state.currentPlayer== false){
-            this.setState({ message: "Comienza el jugador" + this.state.player2})
+            this.setState({ message: "Juega el jugador: " + this.state.player2})
         }
 
         if(this.state.stateGame == "ganada" && this.state.currentPlayer == false){
-            this.setState({ message: "Ganaste "+ this.state.player1})
+            this.setState({ message: "Ganaste: "+ this.state.player1})
         }
         else if (this.state.stateGame == "ganada" && this.state.currentPlayer == true){
-            this.setState({ message: "Ganaste "+ this.state.player2}) 
+            this.setState({ message: "Ganaste: "+ this.state.player2}) 
         }
         if(this.state.stateGame == "empatado"){
             this.setState({ message: "Empataron"})
@@ -168,7 +166,6 @@ export default class Tabla extends React.Component {
     
                     const res = await axios.put("http://localhost:3000/board/mark/"+ this.props.id, `position=${position}`, config )
                     document.getElementById(position).className = "cuadro marca1"
-                    this.setState({ history1: `el Jugador 1 puso una marca en la celda ${position}`})
                     
                     
                 }
@@ -186,7 +183,6 @@ export default class Tabla extends React.Component {
                     
                     const res = await axios.put("http://localhost:3000/board/mark/"+ this.props.id, `position=${position}`, config )
                     document.getElementById(position).className = "cuadro marca2"
-    
                     
                 }
                 else{
