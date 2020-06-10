@@ -1,0 +1,25 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/gaby/Desktop/pa-backend/apiTateti
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :views/error.pug
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/apiTateti/views/error.pug
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/gaby/Desktop/pa-backend/apiTateti/views/layout.pug
+> git show :views/layout.pug
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/apiTateti/views/layout.pug
+> git cat-file -s 51ec12c6a26323d9f5bc51fb98cb1324a739ea4c
+> git cat-file -s 15af079bf7c34e638ba14844efd979ac9111628b
+> git show HEAD:routes/board.js
+> git ls-tree -l HEAD -- /home/gaby/Desktop/pa-backend/apiTateti/routes/board.js

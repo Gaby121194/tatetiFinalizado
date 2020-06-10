@@ -3,6 +3,7 @@
     "openedPathsList": {
         "workspaces3": [
             "file:///home/gaby/Desktop/pa-backend/reactTateti-master",
+            "file:///home/gaby/Desktop/pa-backend/apiTateti",
             "file:///home/gaby/Desktop/pa-backend/fronttateti"
         ],
         "files2": []
@@ -41,7 +42,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -50,13 +52,21 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/gaby/Desktop/pa-backend/reactTateti-master",
-                                        "external": "file:///home/gaby/Desktop/pa-backend/reactTateti-master",
                                         "path": "/home/gaby/Desktop/pa-backend/reactTateti-master",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Desktop/pa-backend/reactTateti-master"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/home/gaby/Desktop/pa-backend/apiTateti",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Desktop/pa-backend/apiTateti"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -101,7 +111,8 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save"
+                        "label": "&&Save",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.files.saveAs",
@@ -173,7 +184,8 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File"
+                        "label": "Re&&vert File",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
@@ -181,7 +193,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -381,8 +394,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "Show &&Side Bar",
-                                    "checked": true
+                                    "label": "Show &&Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleStatusbarVisibility",
@@ -401,8 +413,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -577,7 +588,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -586,7 +598,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -897,7 +910,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1457,39 +1471,16 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/gaby/Desktop/pa-backend/reactTateti-master",
-            "backupPath": "/home/gaby/Desktop/pa-backend/reactTateti-master/~/.vscode-root/Backups/1d9b46d7b782c37c533ac85118637889",
+            "backupPath": "/home/gaby/Desktop/pa-backend/reactTateti-master/~/.vscode-root/Backups/1591744517046",
             "uiState": {
-                "mode": 0,
+                "mode": 1,
                 "x": 168,
                 "y": 57,
                 "width": 1024,
                 "height": 711
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///home/gaby/Desktop/pa-backend/reactTateti-master",
-                "backupPath": "/home/gaby/Desktop/pa-backend/reactTateti-master/~/.vscode-root/Backups/1d9b46d7b782c37c533ac85118637889",
-                "uiState": {
-                    "mode": 0,
-                    "x": 168,
-                    "y": 57,
-                    "width": 1024,
-                    "height": 711
-                }
-            },
-            {
-                "backupPath": "/home/gaby/Desktop/pa-backend/reactTateti-master/~/.vscode-root/Backups/1591744517046",
-                "uiState": {
-                    "mode": 1,
-                    "x": 168,
-                    "y": 57,
-                    "width": 1024,
-                    "height": 711
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "pickerWorkingDir": "/home/gaby/Desktop/pa-backend"
 }

@@ -1,0 +1,58 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/gaby/Desktop/pa-backend/reactTateti-master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/index.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/index.js
+> git cat-file -s 49e7d007ed8ee46a9d5aa40d4dd593bcadd12b9e
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :src/apirestTateti.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/apirestTateti.js
+> git show :src/index.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/index.js
+> git cat-file -s 49e7d007ed8ee46a9d5aa40d4dd593bcadd12b9e
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/store.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/store.js
+> git cat-file -s 48fb3656953ab5a6452cf90e2948fb97663f05c4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :src/tabla.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/tabla.js
+> git cat-file -s cae5c5ab9756364343959ef979c6a7cd7bad4a5f
+> git status -z -u
+> git show :src/tateti.js
+> git ls-files --stage -- /home/gaby/Desktop/pa-backend/reactTateti-master/src/tateti.js
+> git symbolic-ref --short HEAD
+> git cat-file -s 754090f854b38ed9b4279dc6df3e62d6e171c326
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
